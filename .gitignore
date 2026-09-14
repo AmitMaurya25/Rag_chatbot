@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data (uploaded docs + vector index + logs) — regenerated at runtime
+data/uploads/*
+!data/uploads/.gitkeep
+data/vectorstore/*
+!data/vectorstore/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
